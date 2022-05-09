@@ -1,13 +1,12 @@
-<script language="javascript">
-<!--hide
-var password;
-var pass1="12345";
-password=prompt('Enter Correct Password',' ');
-if (password==pass1)
-alert('Correct Password, Click OK to enter.');
-else
-{
-windows.location="http://www.google.com";
-}
-//-->
-</script>
+var password = "12345";
+
+function passcheck() {
+  if(document.getElementById("pass1").value != passsword){
+    alert('wrong Password, try agian');
+    return false;
+  }
+  
+  if(document.getElemetById('pass1').value == password) {
+    alert('Correct Password. Click OK to enter.;);
+          }
+          }
